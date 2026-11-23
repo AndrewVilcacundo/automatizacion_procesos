@@ -1,0 +1,12 @@
+{
+  "name": "udla-gitops-webapp",
+  "version": "1.0.0",
+  "description": "Aplicación Web GitOps con Kubernetes y Argo CD - UDLA",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
