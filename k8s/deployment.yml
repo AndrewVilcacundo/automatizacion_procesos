@@ -14,6 +14,10 @@ spec:
     metadata:
       labels:
         app: web-app
+        version: "v1.1"
+      annotations:
+        environment: "production-gitops"
+        udla-eval: "10-percent-p2"
     spec:
       containers:
       - name: web-app
